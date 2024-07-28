@@ -28,25 +28,36 @@ Steganography is the practice of hiding information within other non-secret text
    cd SteganographyProject
 
 2. Create and activate a virtual environment (optional but recommended):
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 3.Install the required packages:
+   ```bash
    pip install -r requirements.txt
+```
 
 
-**Usage**
+
+
+## Usage
 Encoding (Hiding a Message)
 To hide a message within an image, use the following command:
 
-bash
+### Encoding (Hiding a Message)
+```bash
 python encode.py -i input_image.png -o output_image.png -m "Your hidden message here"
+```
 -i: Path to the input image where the message will be hidden.
+
 -o: Path to the output image that will contain the hidden message.
+
 -m: The message you want to hide within the image.
-Decoding (Extracting a Message)
+
+### Decoding (Extracting a Message)
 To extract a hidden message from an image, use the following command:
 
-bash
+```bash
 python decode.py -i input_image.png
+```
 -i: Path to the input image from which the hidden message will be extracted.
