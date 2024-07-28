@@ -1,5 +1,5 @@
 # SteganographyProject
-
+Copyright © 2017, Robin David - MIT-Licensed
 This project is a modified version of the [LSB-Steganography](https://github.com/RobinDavid/LSB-Steganography) project by Robin David. It includes additional features and improvements to enhance the steganography functionalities.
 
 ## Overview
